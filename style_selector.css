@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, Helvetica,Helvetica Neue, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 0px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    display: inline-block;
+    background: grey;
+    margin-left: 20px;
+    padding: 2px;
+    border-radius: 3px;
+
+}
+li:first-child{
+    background: red;
+    margin-left: 0;
+}
+li:last-child{
+    background: red;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    background: pink;
+}
+.feature-box{
+    display: flex;
+    flex-direction: row;
+}
+.feature-box div{
+    width: 100%;
+    margin: 1px;
+}
+.feature-box.sales div{
+    background: grey;
+}
+.feature-box.closeouts div{
+    background: red;
+}
+#testid{
+    background: green;
+    font-size: 200%;
+}
